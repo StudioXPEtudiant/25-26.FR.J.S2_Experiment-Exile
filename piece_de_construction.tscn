@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3 uid="uid://c2cnk2b01fks8"]
+
+[ext_resource type="PackedScene" uid="uid://thyqudr08clh" path="res://platforme.tscn" id="1_fvpxc"]
+[ext_resource type="PackedScene" uid="uid://ct0iimowyipps" path="res://plafod,_sol,_arier_plans.tscn" id="2_byia5"]
+[ext_resource type="PackedScene" uid="uid://gtphl86ho355" path="res://port_fermer.tscn" id="3_fky06"]
+[ext_resource type="PackedScene" uid="uid://bmno1ge578tu7" path="res://port_ouverte.tscn" id="4_p0vkr"]
+[ext_resource type="PackedScene" uid="uid://c13cgw1057yus" path="res://mure.tscn" id="5_hb2g5"]
+
+[node name="piece de construction" type="Node3D"]
+
+[node name="plafod, sol, arier plans" parent="." instance=ExtResource("2_byia5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -122.55085, 0, 0)
+
+[node name="port ouverte" parent="." instance=ExtResource("4_p0vkr")]
+
+[node name="mure" parent="." instance=ExtResource("5_hb2g5")]
+
+[node name="port fermer" parent="." instance=ExtResource("3_fky06")]
+
+[node name="piece" parent="." instance=ExtResource("1_fvpxc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.850525, 0, 0)

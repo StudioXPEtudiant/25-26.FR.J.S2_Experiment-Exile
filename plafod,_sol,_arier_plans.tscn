@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://ct0iimowyipps"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lv811"]
+albedo_color = Color(1, 0.99514896, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_cvdqp"]
+material = SubResource("StandardMaterial3D_lv811")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_org72"]
+
+[node name="plafod, sol, arier plans" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.54091, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(100, 0, 0, 0, 1, 0, 0, 0, 50, -0.7995529, 0, 0)
+mesh = SubResource("BoxMesh_cvdqp")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(100, 0, 0, 0, 1, 0, 0, 0, 50, 0, 0, 0)
+shape = SubResource("BoxShape3D_org72")

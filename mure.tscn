@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c13cgw1057yus"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_66srq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gyf5a"]
+size = Vector3(1, 1.0071487, 0.9942627)
+
+[node name="mure" type="CharacterBody3D"]
+transform = Transform3D(0.011745854, 0, 0.99993104, 0, 1, 0, -0.99993104, 0, 0.011745854, -60.43879, 14.068637, -133.48244)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 50, 0, 0, 0, 50, -50.400204, 11.138375, 0)
+mesh = SubResource("BoxMesh_66srq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 50, 0, 0, 0, 50, -50.785637, 11.076871, 0)
+shape = SubResource("BoxShape3D_gyf5a")
