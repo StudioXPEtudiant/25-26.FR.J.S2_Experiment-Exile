@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://dbugap5f7fr11"]
+
+[ext_resource type="Texture2D" uid="uid://c8r3r34ry8gcn" path="res://Ground_Game.png" id="1_ebem2"]
+[ext_resource type="Texture2D" uid="uid://cgxc1tbwd43lm" path="res://New Piskel (1).png" id="2_rfd5w"]
+[ext_resource type="Texture2D" uid="uid://2gvgf10ep3wu" path="res://New Piskel (2).png" id="3_0ha5t"]
+[ext_resource type="Texture2D" uid="uid://uptq050hy57m" path="res://New Piskel.png" id="4_r22q4"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+rendering_quadrant_size = 128
+format = 2
+
+[node name="GroundGame" type="Sprite2D" parent="TileMap"]
+position = Vector2(574, 112.000046)
+scale = Vector2(0.7428385, 0.9562212)
+texture = ExtResource("1_ebem2")
+
+[node name="NewPiskel(1)" type="Sprite2D" parent="TileMap"]
+position = Vector2(52, 296)
+texture = ExtResource("2_rfd5w")
+
+[node name="NewPiskel(2)" type="Sprite2D" parent="TileMap"]
+position = Vector2(214, 335)
+texture = ExtResource("3_0ha5t")
+
+[node name="NewPiskel" type="Sprite2D" parent="TileMap"]
+position = Vector2(777.5, 420)
+scale = Vector2(0.9074803, 0.79527557)
+texture = ExtResource("4_r22q4")
