@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8r3r34ry8gcn"
-path.s3tc="res://.godot/imported/Ground_Game.png-324a1cdd1d7be0a3ec2149ab5a6ea42d.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ground_Game.png-1a162cf966f99f7c021a51e512728bde.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Ground_Game.png"
-dest_files=["res://.godot/imported/Ground_Game.png-324a1cdd1d7be0a3ec2149ab5a6ea42d.s3tc.ctex"]
+source_file="res://Piksel/Ground_Game.png"
+dest_files=["res://.godot/imported/Ground_Game.png-1a162cf966f99f7c021a51e512728bde.s3tc.ctex"]
 
 [params]
 
