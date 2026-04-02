@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ioaua3ijveua"]
+
+[ext_resource type="PackedScene" uid="uid://bncu04hptacae" path="res://Scenes/Decoration/table.tscn" id="1_4ki4x"]
+
+[node name="Node3D" type="Node3D" unique_id=1488878527]
+
+[node name="table" parent="." unique_id=770143255 instance=ExtResource("1_4ki4x")]

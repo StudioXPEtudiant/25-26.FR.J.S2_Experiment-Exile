@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bvkvyq6o4prpi"]
-
-[ext_resource type="PackedScene" uid="uid://c2cnk2b01fks8" path="res://Scenes/piece_de_construction.tscn" id="1_f02kb"]
-
-[node name="Node3D" type="Node3D"]
-
-[node name="piece de construction" parent="." instance=ExtResource("1_f02kb")]
