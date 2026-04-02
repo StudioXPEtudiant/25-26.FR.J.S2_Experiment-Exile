@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cgxc1tbwd43lm" path="res://Piksel/New Piskel (1).png" id="2_55bn1"]
 [ext_resource type="Texture2D" uid="uid://2gvgf10ep3wu" path="res://Piksel/New Piskel (2).png" id="3_p2ggs"]
 [ext_resource type="Texture2D" uid="uid://uptq050hy57m" path="res://Piksel/New Piskel.png" id="4_wc7hi"]
+[ext_resource type="Texture2D" uid="uid://5m87ldj2wg10" path="res://Piksel/Couteau.png" id="5_55bn1"]
 
 [node name="Node2D" type="Node2D" unique_id=1582087703]
 
@@ -28,3 +29,8 @@ texture = ExtResource("3_p2ggs")
 position = Vector2(777.5, 420)
 scale = Vector2(0.9074803, 0.79527557)
 texture = ExtResource("4_wc7hi")
+
+[node name="Couteau" type="Sprite2D" parent="." unique_id=1451979198]
+position = Vector2(384, 348)
+scale = Vector2(0.53515625, 0.46484375)
+texture = ExtResource("5_55bn1")
