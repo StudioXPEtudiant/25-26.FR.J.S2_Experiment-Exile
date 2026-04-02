@@ -1,25 +1,31 @@
-[gd_scene load_steps=3 format=3 uid="uid://bmno1ge578tu7"]
+[gd_scene format=3 uid="uid://bmno1ge578tu7"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_n1cv7"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4jysg"]
 size = Vector3(0.7036133, 40.246063, 50.55493)
 
-[node name="port ouverte" type="CharacterBody3D"]
+[sub_resource type="BoxMesh" id="BoxMesh_t87kt"]
+
+[node name="port ouverte" type="CharacterBody3D" unique_id=1315011135]
 transform = Transform3D(0.011745854, 0, 0.99993104, 0, 1, 0, -0.99993104, 0, 0.011745854, 2.010353, 14.068637, -51.39949)
 
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1093551606]
 transform = Transform3D(0.5, 0, -4.7683716e-07, 0, 40, 0, 0, 0, 50, -50.98168, 16.011154, -0.17312622)
 mesh = SubResource("BoxMesh_n1cv7")
 
-[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=709639254]
 transform = Transform3D(0.5, 0, 0, 0, 50, 0, 0, 0, 20.000006, -51.035355, 10.938985, -14.8517)
 mesh = SubResource("BoxMesh_n1cv7")
 
-[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=1227818882]
 transform = Transform3D(0.5, 0, 0, 0, 50, 0, 0, 0, 20.000006, -50.941483, 10.787728, 14.808216)
 mesh = SubResource("BoxMesh_n1cv7")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1964387689]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.781826, 16.202103, -0.3128662)
 shape = SubResource("BoxShape3D_4jysg")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="." unique_id=594229149]
+transform = Transform3D(-0.41072118, 0, -9.08061, 0, 9.765418, 0, -0.77203137, 0, 4.830895, -46.336643, -9.234543, 3.0624137)
+mesh = SubResource("BoxMesh_t87kt")
