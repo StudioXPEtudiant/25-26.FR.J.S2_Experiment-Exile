@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://cb717xbxummdk"]
+[gd_scene format=3 uid="uid://cb717xbxummdk"]
 
 [ext_resource type="PackedScene" uid="uid://bxvaco86odrmp" path="res://Scenes/salle.tscn" id="1_ovk2j"]
 
