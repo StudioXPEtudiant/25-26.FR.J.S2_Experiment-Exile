@@ -1,0 +1,19 @@
+[gd_scene load_steps=6 format=3 uid="uid://bvkvyq6o4prpi"]
+
+[ext_resource type="PackedScene" uid="uid://c13cgw1057yus" path="res://Scenes/mure.tscn" id="1_ung4v"]
+[ext_resource type="PackedScene" uid="uid://ct0iimowyipps" path="res://Scenes/plafod,_sol,_arier_plans.tscn" id="2_iefvr"]
+[ext_resource type="PackedScene" uid="uid://thyqudr08clh" path="res://Scenes/platforme.tscn" id="3_4cwmt"]
+[ext_resource type="PackedScene" uid="uid://gtphl86ho355" path="res://Scenes/port_fermer.tscn" id="4_vydvg"]
+[ext_resource type="PackedScene" uid="uid://bmno1ge578tu7" path="res://Scenes/port_ouverte.tscn" id="5_ejjae"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="mure" parent="." instance=ExtResource("1_ung4v")]
+
+[node name="plafod, sol, arier plans" parent="." instance=ExtResource("2_iefvr")]
+
+[node name="piece" parent="." instance=ExtResource("3_4cwmt")]
+
+[node name="port fermer" parent="." instance=ExtResource("4_vydvg")]
+
+[node name="port ouverte" parent="." instance=ExtResource("5_ejjae")]

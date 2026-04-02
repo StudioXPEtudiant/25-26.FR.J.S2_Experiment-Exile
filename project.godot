@@ -18,3 +18,7 @@ config/name="experiment exile"
 run/main_scene="uid://d2pfff0x51wo7"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/zylann.hterrain/plugin.cfg")
