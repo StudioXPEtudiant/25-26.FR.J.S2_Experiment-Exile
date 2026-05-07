@@ -27,3 +27,5 @@ mesh = SubResource("BoxMesh_hcve5")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=1338559992]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.4128437, 0)
 mesh = SubResource("PrismMesh_e174p")
+
+[node name="Node3D" type="Node3D"]
