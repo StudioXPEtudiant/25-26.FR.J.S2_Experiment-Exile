@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bcs60aytrvn6p"]
+
+[ext_resource type="Texture2D" uid="uid://bc78l3t0bwdun" path="res://Piksel/Player.png" id="1_4flbx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_sh265"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4flbx"]
+size = Vector2(6.7610083, 1.9638643)
+
+[node name="Node2D" type="Node2D" unique_id=110706815]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=1133101483]
+visible = false
+position = Vector2(577.5, 347)
+scale = Vector2(43.000046, 100)
+mesh = SubResource("BoxMesh_sh265")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MeshInstance2D" unique_id=2106035247]
+visible = false
+scale = Vector2(0.14790672, 0.5092)
+shape = SubResource("RectangleShape2D_4flbx")
+
+[node name="Player" type="Sprite2D" parent="." unique_id=1552431271]
+position = Vector2(579, 347.25)
+scale = Vector2(3.1249998, 3.1406243)
+texture = ExtResource("1_4flbx")
