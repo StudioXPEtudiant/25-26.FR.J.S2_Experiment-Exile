@@ -17,3 +17,4 @@
 [node name="port fermer" parent="." instance=ExtResource("4_vydvg")]
 
 [node name="port ouverte" parent="." instance=ExtResource("5_ejjae")]
+transform = Transform3D(0.011745854, 0, 0.99993104, 0, 1, 0, -0.99993104, 0, 0.011745854, 2.010353, 14.068637, 34.362305)

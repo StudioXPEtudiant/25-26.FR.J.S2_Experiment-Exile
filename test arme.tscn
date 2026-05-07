@@ -1,29 +1,3 @@
-[gd_scene load_steps=3 format=3 uid="uid://c5vst6joa0jk2"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_hcve5"]
-
-[sub_resource type="PrismMesh" id="PrismMesh_e174p"]
+[gd_scene format=3 uid="uid://c5vst6joa0jk2"]
 
 [node name="Node3D" type="Node3D"]
-
-[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
-
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.4277234, 0)
-mesh = SubResource("BoxMesh_hcve5")
-
-[node name="MeshInstance3D3" type="MeshInstance3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7178715, 0)
-mesh = SubResource("BoxMesh_hcve5")
-
-[node name="MeshInstance3D5" type="MeshInstance3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.728871, 0)
-mesh = SubResource("BoxMesh_hcve5")
-
-[node name="MeshInstance3D4" type="MeshInstance3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.432218, 0)
-mesh = SubResource("BoxMesh_hcve5")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.4494944, 0)
-mesh = SubResource("PrismMesh_e174p")
