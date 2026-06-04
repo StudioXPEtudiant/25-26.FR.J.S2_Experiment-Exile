@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bxvaco86odrmp" path="res://Scenes/Piece_De_Construction/salle.tscn" id="1_ovk2j"]
 [ext_resource type="PackedScene" uid="uid://bcs60aytrvn6p" path="res://player.tscn" id="2_e2p6q"]
+[ext_resource type="PackedScene" uid="uid://ue3wipgebhg4" path="res://Back.tscn" id="3_m3e6x"]
 
 [node name="Node" type="Node" unique_id=1992854762]
 
@@ -15,3 +16,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 24.760592, 55.734467)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=977607507]
 transform = Transform3D(1, 0, 0, 0, 0.99784636, 0.0655947, 0, -0.0655947, 0.99784636, 0, 30.434528, 67.14856)
+
+[node name="Node3D4" parent="." unique_id=1748329244 instance=ExtResource("3_m3e6x")]
+transform = Transform3D(0.662768, 0, -11.644178, 0, 5.6845574, 0, -0.04064222, 0, -0.056592654, -12.716665, 5.393199, -18.233444)
+
+[node name="Node3D3" parent="." unique_id=1471410977 instance=ExtResource("3_m3e6x")]
+transform = Transform3D(0.0034076541, 0, -13.851042, 0, 9.601146, 0, 0.05579458, 0, 0.84595245, -34.637695, 0.5087373, -13.390319)
+
+[node name="Node3D5" parent="." unique_id=1977014355 instance=ExtResource("3_m3e6x")]
+transform = Transform3D(0.0034076541, 0, -13.851042, 0, 9.601146, 0, 0.05579458, 0, 0.84595245, 40.53763, 0.5087373, -13.390319)
+
+[node name="Node3D6" parent="." unique_id=49576450 instance=ExtResource("3_m3e6x")]
+transform = Transform3D(0.0034076541, 0, -13.851042, 0, 9.601146, 0, 0.05579458, 0, 0.84595245, 10.904774, 0.5087373, -17.863789)
+
+[node name="Node3D7" parent="." unique_id=241247406 instance=ExtResource("3_m3e6x")]
+transform = Transform3D(0.662768, 0, -11.644178, 0, 5.6845574, 0, -0.04064222, 0, -0.056592654, 23.610453, 5.393199, -11.8722725)

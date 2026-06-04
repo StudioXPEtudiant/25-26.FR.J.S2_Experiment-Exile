@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://ue3wipgebhg4"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_l2my8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u270p"]
+
+[node name="Node3D" type="Node3D" unique_id=1748329244]
+transform = Transform3D(0.055898547, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=942978875]
+transform = Transform3D(1.0261738, 0, 0, 0, 2.7306473, 0, 0, 0, 0.15743744, 0, 1.3565844, 0)
+mesh = SubResource("BoxMesh_l2my8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1405861004]
+transform = Transform3D(1.0261738, 0, 0, 0, 2.7306473, 0, 0, 0, 0.15743744, 0, 1.3565844, 0)
+shape = SubResource("BoxShape3D_u270p")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=107810135]
+transform = Transform3D(1, 0, 0, 0, 1.7407117, 0, 0, 0, 1.8871833, 0, 2.9827502, 0.011211157)
+mesh = SubResource("BoxMesh_l2my8")
+skeleton = NodePath("../CollisionShape3D")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=1772707269]
+transform = Transform3D(1, 0, 0, 0, 1.7407117, 0, 0, 0, 1.8871833, 0, 2.9827502, 0.011211157)
+shape = SubResource("BoxShape3D_u270p")
